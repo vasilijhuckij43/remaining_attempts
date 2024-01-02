@@ -1,0 +1,4 @@
+ else
+            remaining_attempts = attempts - (attempt + 1)
+            if remaining_attempts > 0
+                puts "Incorrect. You have #{remaining_attempts} attempts left."
